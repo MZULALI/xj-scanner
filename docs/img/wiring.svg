@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 470" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1040" height="470" rx="14" fill="#f7f5ef"/>
+  <!-- laptop -->
+  <rect x="24" y="160" width="120" height="84" rx="8" fill="#2b2f36"/>
+  <rect x="34" y="170" width="100" height="58" rx="3" fill="#3d7f7a"/>
+  <rect x="14" y="244" width="140" height="12" rx="5" fill="#8f949c"/>
+  <text x="84" y="280" text-anchor="middle" font-size="15" fill="#333">Laptop + agent</text>
+  <path d="M144 202 H236" stroke="#bdbdbd" stroke-width="7" fill="none"/>
+  <text x="190" y="190" text-anchor="middle" font-size="13" fill="#555">USB</text>
+  <!-- nano -->
+  <rect x="236" y="92" width="150" height="250" rx="10" fill="#1e4f8f"/>
+  <text x="311" y="124" text-anchor="middle" font-size="19" font-weight="bold" fill="#fff">Arduino Nano</text>
+  <g font-size="16" font-weight="bold" fill="#fff" text-anchor="end">
+    <text x="364" y="176">D10</text><text x="364" y="226">D11</text><text x="364" y="286">GND</text>
+  </g>
+  <g fill="#d8a520"><rect x="372" y="162" width="18" height="18"/><rect x="372" y="212" width="18" height="18"/><rect x="372" y="272" width="18" height="18"/></g>
+  <!-- plug -->
+  
+  <rect x="720" y="108" width="300" height="212" rx="16" fill="#4a4d52"/>
+  <g stroke="#222" stroke-width="3">
+    <rect x="746" y="134" width="64" height="58" rx="6" fill="#77797d"/><rect x="746" y="228" width="64" height="58" rx="6" fill="#111"/>
+    <rect x="838" y="134" width="64" height="58" rx="6" fill="#2f9e44"/><rect x="838" y="228" width="64" height="58" rx="6" fill="#e25c9a"/>
+    <rect x="930" y="134" width="64" height="58" rx="6" fill="#77797d"/><rect x="930" y="228" width="64" height="58" rx="6" fill="#c92a2a"/>
+  </g>
+  <g font-size="26" font-weight="bold" fill="#fff" text-anchor="middle">
+    <text x="778" y="173">1</text><text x="778" y="267">2</text><text x="870" y="173">3</text><text x="870" y="267">4</text><text x="962" y="173">5</text><text x="962" y="267">6</text>
+  </g>
+  <!-- wires (on top) -->
+  <path d="M390 221 C560 221 600 60 780 60 C860 60 870 100 870 134" stroke="#2f9e44" stroke-width="6" fill="none"/>
+  <path d="M390 171 C520 171 600 330 720 322 C800 316 870 320 870 286" stroke="#e25c9a" stroke-width="6" fill="none"/>
+  <path d="M390 281 C500 281 560 257 746 257" stroke="#222" stroke-width="6" fill="none"/>
+  <text x="870" y="346" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Diagnostic plug, looking into it</text>
+  <text x="870" y="368" text-anchor="middle" font-size="13" fill="#555">1, 5 empty · 2 ground · 3 ≈5 V · 4 ≈0 V · 6 12 V</text>
+  <g font-size="14" fill="#333">
+    <rect x="236" y="368" width="26" height="6" fill="#2f9e44"/><text x="272" y="376">D11 → cavity 3: the computer listens here</text>
+    <rect x="236" y="392" width="26" height="6" fill="#e25c9a"/><text x="272" y="400">D10 ← cavity 4: the computer talks back here</text>
+    <rect x="236" y="416" width="26" height="6" fill="#222"/><text x="272" y="424">GND → cavity 2: ground</text>
+  </g>
+  <text x="870" y="400" text-anchor="middle" font-size="15" font-weight="bold" fill="#c92a2a">Cavity 6 is 12 V with the key on.</text>
+  <text x="870" y="420" text-anchor="middle" font-size="15" font-weight="bold" fill="#c92a2a">Leave it empty.</text>
+  <text x="520" y="454" text-anchor="middle" font-size="12" fill="#555">Numbered down each column. Voltages are key ON, measured on one 1994 Cherokee 4.0. Measure yours before connecting anything.</text>
+</svg>
